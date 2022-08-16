@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    margin-top: 100px;
+    background-color: hsl(216, 50%, 16%);
+    width: 320px;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.top-body{
+    height: 466px;
+    display: flex;
+    /* margin-top: 30px; */
+    /* padding: 20px 20px; */
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: space-between; */
+    /* align-items: center; */
+}
+
+.img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cube-img{
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 270px;
+    height: 270px;
+}
+
+.heading{
+    padding-left: 20px;
+    margin-top: 20px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.para-div{
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.para{
+    margin-top: 20px ;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(215, 32%, 27%);
+    line-height: 1em;
+    font-weight: 300;
+}
+
+.price-time-row{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eth-price{
+    margin-left: 4px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: hsl(178, 100%, 50%);
+}
+
+.time-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.time-left{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    margin-left: 3px;
+    color: hsl(215, 32%, 27%);
+}
+hr{
+    margin: 20px;
+    color: hsl(215, 32%, 27%);
+}
+
+.bottom-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.avatar{
+    width: 25px;
+    height: 25px;
+}
+
+.bottom-text{
+    margin-left: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+}
+
+.creation{
+    color: hsl(215, 32%, 27%);
+    margin-right: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        margin-top: 50px;
+    }    
+  }
+
